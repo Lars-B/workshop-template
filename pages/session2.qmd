@@ -1,0 +1,27 @@
+---
+title: Session 2 Title
+description: |
+  <br>This session will cover [topic/skill]. Participants will gain practical experience in [specific task or tool] and learn how to apply it in their own projects.
+title-block-banner: true
+---
+
+## Session Details
+
+- **Date:** [Day of week], [Month] [Day], [Year]  
+- **Time:** [Start time]–[End time] ([morning/afternoon/evening] session)  
+- **Location:** [Venue or virtual platform]  
+- **Instructor:** [Instructor Name]  
+
+---
+
+### Prerequisites
+[List any prerequisite skills/knowledge here, or write “None required.”]
+
+### Software Requirements
+[List software requirements here. For example:  
+Participants should install [Software/Tool] beforehand, or ensure they have access to a browser with [requirement].]
+
+---
+
+<span class="bi bi-journal session-icon"></span> **Course materials:** [Link](https://example.com/session2-materials)
+
