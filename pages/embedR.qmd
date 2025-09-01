@@ -1,0 +1,77 @@
+---
+title: Embedding R code
+description: |
+  <br>This session will cover embedding R code in qmd.
+title-block-banner: true
+---
+
+## Session Details
+
+- **Date:** [Day of week], [Month] [Day], [Year]  
+- **Time:** [Start time]–[End time] ([morning/afternoon/evening] session)  
+- **Location:** [Venue or virtual platform]  
+- **Instructor:** [Instructor Name]  
+
+---
+
+# Embedding R code into the website
+
+The quarto markdown `.qmd` is essentially a successor to RMarkdown,
+mostly backward compatible and following similar syntax.
+
+## Code chunks
+
+```{r}
+#| warning: false
+#| code-fold: false
+
+library(ape)
+library(phangorn)
+
+tree1 <- ape::read.tree(text='(((A,B),C),D);')
+tree2 <- ape::read.tree(text='(((A,C),B),D);')
+
+dist <- phangorn::RF.dist(tree1, tree2)
+
+dist
+```
+
+## Library loading
+
+Here we are loading the libraries used throughout this document.
+
+```{r}
+#| code-fold: false
+
+library(ape)
+library(phangorn)
+```
+
+## Cross reference figures
+
+You can add special tags to be able to create links to figures.
+See @fig-linkable for details.
+
+```{r}
+#| label: fig-linkable
+#| fig-cap: "You can link to this figure"
+#| warning: false
+#| code-fold: true
+
+tree1 <- ape::read.tree(text='(((A,B),C),D);')
+
+plot(tree1)
+```
+
+## Reading external datasets
+
+We can also read in files that are provided in a relative location to this document.
+
+```{r}
+
+my.trees <- ape::read.nexus('../data/example.trees')
+
+phangorn::RF.dist(my.trees)
+
+```
+

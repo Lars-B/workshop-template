@@ -12,6 +12,16 @@ To preview the website use
 quarto preview
 ```
 
+### Quarto extensions
+
+To get icons from [font-awesome](https://fontawesome.com/), for example the R-project icon in the navbar
+we are using the [fontawesome](https://github.com/quarto-ext/fontawesome) extension.
+It has to be installed seperately:
+
+```{bash}
+quarto add quarto-ext/fontawesome
+```
+
 # Reference/Inspiration
 
 This layout is inspired by [the HPC workshop](https://sfu25.netlify.app/) held at SFU.

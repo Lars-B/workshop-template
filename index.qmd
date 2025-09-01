@@ -97,11 +97,11 @@ Tuesday<br>[Date]
 Wednesday<br>[Date]
 :::
 
-:::{layout="[[7,3]]"}  
+:::{layout="[[7,3]]"}
 
 :::{.card .mb-3}
 :::{.card-body}
-[Session 5 Title](pages/session1.qmd){.card-title .stretched-link}  
+[Session 5 Title](pages/embedR.qmd){.card-title .stretched-link}
 [Short description]{.text-muted}
 :::
 :::
@@ -122,10 +122,10 @@ Wednesday<br>[Date]
 <!-- Repeat similar blocks for Day 4, Day 5, etc. -->
 
 <br><br>
-![](img/frontlogo.png){fig-alt="front logo"}
+![](img/duck_coffee.png){fig-alt="front logo"}
 
 <br>
 <center>Hosted by:</center>
 <br>
 
-<center>![](img/host_logo.png){fig-alt="host logo" width="35%"}</center>
+<center>![](img/keen_on_caffeine.png){fig-alt="host logo" width="35%"}</center>

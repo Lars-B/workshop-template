@@ -7,7 +7,7 @@ website:
   repo-url: https://github.com/Lars-B/
   site-url: example.com
   navbar:
-    logo: img/keen_on_caffeine.png
+    logo: img/coffee_can.png
     title: false
     left:
       - text: "Home"
@@ -19,6 +19,11 @@ website:
       - text: "Session 2"
         href: pages/session2.qmd
         icon: box-seam
+      - text: "{{< fa brands r-project >}} embedding"
+        href: pages/embedR.qmd
+      - text: "PDF embedding"
+        href: pages/embedPDF.qmd
+        icon: file-earmark-pdf
       - text: "About"
         href: about.qmd
         icon: airplane-engines
