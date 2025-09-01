@@ -1,0 +1,47 @@
+---
+title: Session 2 Title
+description: |
+  <br>Here we will cover how to deal with PDFs, displaying them, opening them or linking to them for download.
+title-block-banner: true
+---
+
+## Session Details
+
+- **Date:** [Day of week], [Month] [Day], [Year]  
+- **Time:** [Start time]–[End time] ([morning/afternoon/evening] session)  
+- **Location:** [Venue or virtual platform]  
+- **Instructor:** [Instructor Name]  
+
+---
+
+### Linking to a pdf for downloading
+
+[Download PDF](../pdf/example.pdf){download="testfile.pdf"}
+
+### Opening pdf in new tab
+
+[Open slides](../pdf/example.pdf){target="_blank"}
+
+### How to embed a pdf
+
+TODO make this nice..
+
+```{=html}
+<embed src="../pdf/example.pdf"
+       type="application/pdf"
+       width="100%"
+       height="400px">
+```
+
+<iframe src="../pdf/example.pdf"
+        width="100%"
+        height="500px"
+        style="border:none;">
+</iframe>
+
+
+
+---
+
+<span class="bi bi-journal session-icon"></span> **Course materials:** [Link](https://example.com/session2-materials)
+
