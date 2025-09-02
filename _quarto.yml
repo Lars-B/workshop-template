@@ -21,6 +21,8 @@ website:
         icon: box-seam
       - text: "{{< fa brands r-project >}} embedding"
         href: pages/embedR.qmd
+      - text: "{{< fa brands python >}} embedding"
+        href: pages/embedPython.qmd
       - text: "PDF embedding"
         href: pages/embedPDF.qmd
         icon: file-earmark-pdf

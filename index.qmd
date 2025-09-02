@@ -26,41 +26,15 @@ Monday<br>[Date]
 
 :::{.card .mb-3}
 :::{.card-body}
-[Session 1 Title](pages/session1.qmd){.card-title .stretched-link}  
+[Session 1 Title](pages/session1.qmd){.card-title .stretched-link}
 [Short description]{.text-muted}
 :::
-:::
-
-
-<!-- ================= Day 1 ================= -->
-:::{layout="[[15]]"}
-:::{.card .mb-3}
-:::{.card-body}
-
-:::{layout="[[5]]"}
-:::{.date}
-Monday<br>[Date]
-:::
-
-:::{layout="[[10]]"}
-
-:::{.card .mb-3}
-:::{.card-body}
-[Session 1 Title](pages/session1.qmd){.card-title .stretched-link}  
-[Short description]{.text-muted}
-:::
-:::
-
-:::
-
 :::
 :::
 :::
 
 <!-- ================= Day 2 ================= -->
-:::{layout="[[10]]"}
-:::{.card .mb-3}
-:::{.card-body}
+:::{layout="[[12]]"}
 
 :::{.date}
 Tuesday<br>[Date]
@@ -70,56 +44,50 @@ Tuesday<br>[Date]
 
 :::{.card .mb-3}
 :::{.card-body}
-[Session 3 Title](pages/session2.qmd){.card-title .stretched-link}  
+[Session 3 Title](pages/session2.qmd){.card-title .stretched-link}
 [Short description]{.text-muted}
 :::
 :::
 
 :::{.card .mb-3}
 :::{.card-body}
-[Session 4 Title](pages/session1.qmd){.card-title .stretched-link}  
-[Short description]{.text-muted}
+[Embedding PDFs](pages/embedPDF.qmd){.card-title .stretched-link}
+[Display and embed PDFs]{.text-muted}
 :::
 :::
 
-:::
-
-:::
 :::
 :::
 
 <!-- ================= Day 3 ================= -->
-:::{layout="[[10]]"}
-:::{.card .mb-3}
-:::{.card-body}
+:::{layout="[[12]]"}
 
 :::{.date}
-Wednesday<br>[Date]
+Tuesday<br>[Date]
 :::
 
-:::{layout="[[7,3]]"}
-
-:::{.card .mb-3}
-:::{.card-body}
-[Session 5 Title](pages/embedR.qmd){.card-title .stretched-link}
-[Short description]{.text-muted}
-:::
-:::
+:::{layout="[[6,4]]"}
 
 :::{.card .mb-3}
 :::{.card-body}
-[Session 6 Title](pages/session2.qmd){.card-title .stretched-link}  
-[Short description]{.text-muted}
+[Embedding R code](pages/embedR.qmd){.card-title .stretched-link}
+[This is about embedding R code]{.text-muted}
+:::
+:::
+
+:::{.card .mb-3}
+:::{.card-body}
+[Embedding Python code](pages/embedPython.qmd){.card-title .stretched-link}
+[Same as R but with Python]{.text-muted}
 :::
 :::
 
 :::
-
-:::
-:::
 :::
 
-<!-- Repeat similar blocks for Day 4, Day 5, etc. -->
+<!--
+Can repeat for more days and sessions...
+-->
 
 <br><br>
 ![](img/duck_coffee.png){fig-alt="front logo"}
