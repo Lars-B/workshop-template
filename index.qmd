@@ -27,7 +27,10 @@ Monday<br>[Date]
 :::{.card .mb-3}
 :::{.card-body}
 [Session 1 Title](pages/session1.qmd){.card-title .stretched-link}
-[Short description]{.text-muted}
+
+:::{.text-muted}
+Short description
+:::
 :::
 :::
 :::
@@ -45,14 +48,20 @@ Tuesday<br>[Date]
 :::{.card .mb-3}
 :::{.card-body}
 [Session 3 Title](pages/session2.qmd){.card-title .stretched-link}
-[Short description]{.text-muted}
+
+:::{.text-muted}
+Short description
+:::
 :::
 :::
 
 :::{.card .mb-3}
 :::{.card-body}
 [Embedding PDFs](pages/embedPDF.qmd){.card-title .stretched-link}
-[Display and embed PDFs]{.text-muted}
+
+:::{.text-muted}
+Display and embed PDFs
+:::
 :::
 :::
 
@@ -71,14 +80,20 @@ Tuesday<br>[Date]
 :::{.card .mb-3}
 :::{.card-body}
 [Embedding R code](pages/embedR.qmd){.card-title .stretched-link}
-[This is about embedding R code]{.text-muted}
+
+:::{.text-muted}
+This is about embedding R code
+:::
 :::
 :::
 
 :::{.card .mb-3}
 :::{.card-body}
 [Embedding Python code](pages/embedPython.qmd){.card-title .stretched-link}
-[Same as R but with Python]{.text-muted}
+
+:::{.text-muted}
+Same as R but with Python
+:::
 :::
 :::
 

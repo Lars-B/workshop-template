@@ -12,14 +12,14 @@
   padding: 0.9rem 1rem 0.2rem 1rem;
 }
 
-/*.card-body2 {
+.card-body2 {
   flex: 1 1 auto;
   -webkit-flex: 1 1 auto;
   padding: 0.9rem 1rem 0.2rem 1rem;
   font-size: 0.95rem;
   line-height: 1rem;
 }
-*/
+
 .card {
   width: 100% !important;
   background-color: #f8f9fa;
