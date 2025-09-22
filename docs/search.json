@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "pages/embedPDF.html",
+    "href": "pages/embedPDF.html",
+    "title": "Session 2 Title",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]\n\n\n\n\nDownload PDF\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFirefox users: Opening PDFs in a new tab depends on your browser setting: Settings → Applications → Portable Document Format (PDF) → Open in Firefox\n\n\nOpen slides\n\n\n\nEmbedding a PDF with html code:\n\n\n\n Course materials: Link"
+  },
+  {
+    "objectID": "pages/embedPDF.html#session-details",
+    "href": "pages/embedPDF.html#session-details",
+    "title": "Session 2 Title",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]\n\n\n\n\nDownload PDF\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFirefox users: Opening PDFs in a new tab depends on your browser setting: Settings → Applications → Portable Document Format (PDF) → Open in Firefox\n\n\nOpen slides\n\n\n\nEmbedding a PDF with html code:\n\n\n\n Course materials: Link"
+  },
+  {
+    "objectID": "pages/session2.html",
+    "href": "pages/session2.html",
+    "title": "Session 2 Title",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]\n\n\n\n\n[List any prerequisite skills/knowledge here, or write “None required.”]\n\n\n\n[List software requirements here. For example:\nParticipants should install [Software/Tool] beforehand, or ensure they have access to a browser with [requirement].]\n\n Course materials: Link"
+  },
+  {
+    "objectID": "pages/session2.html#session-details",
+    "href": "pages/session2.html#session-details",
+    "title": "Session 2 Title",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]\n\n\n\n\n[List any prerequisite skills/knowledge here, or write “None required.”]\n\n\n\n[List software requirements here. For example:\nParticipants should install [Software/Tool] beforehand, or ensure they have access to a browser with [requirement].]\n\n Course materials: Link"
+  },
+  {
+    "objectID": "pages/embedR.html",
+    "href": "pages/embedR.html",
+    "title": "Embedding R code",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]"
+  },
+  {
+    "objectID": "pages/embedR.html#session-details",
+    "href": "pages/embedR.html#session-details",
+    "title": "Embedding R code",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]"
+  },
+  {
+    "objectID": "pages/embedR.html#code-chunks",
+    "href": "pages/embedR.html#code-chunks",
+    "title": "Embedding R code",
+    "section": "Code chunks",
+    "text": "Code chunks\n\nlibrary(ape)\nlibrary(phangorn)\n\ntree1 &lt;- ape::read.tree(text='(((A,B),C),D);')\ntree2 &lt;- ape::read.tree(text='(((A,C),B),D);')\n\ndist &lt;- phangorn::RF.dist(tree1, tree2)\n\ndist\n\n[1] 2"
+  },
+  {
+    "objectID": "pages/embedR.html#library-loading",
+    "href": "pages/embedR.html#library-loading",
+    "title": "Embedding R code",
+    "section": "Library loading",
+    "text": "Library loading\nHere we are loading the libraries used throughout this document.\n\nlibrary(ape)\nlibrary(phangorn)"
+  },
+  {
+    "objectID": "pages/embedR.html#cross-reference-figures",
+    "href": "pages/embedR.html#cross-reference-figures",
+    "title": "Embedding R code",
+    "section": "Cross reference figures",
+    "text": "Cross reference figures\nYou can add special tags to be able to create links to figures. See Figure 1 for details.\n\n\nCode\ntree1 &lt;- ape::read.tree(text='(((A,B),C),D);')\n\nplot(tree1)\n\n\n\n\n\n\n\n\nFigure 1: You can link to this figure"
+  },
+  {
+    "objectID": "pages/embedR.html#reading-external-datasets",
+    "href": "pages/embedR.html#reading-external-datasets",
+    "title": "Embedding R code",
+    "section": "Reading external datasets",
+    "text": "Reading external datasets\nWe can also read in files that are provided in a relative location to this document.\n\nmy.trees &lt;- ape::read.nexus('../data/example.trees')\n\nphangorn::RF.dist(my.trees)\n\n           STATE_0 STATE_2000\nSTATE_2000      26           \nSTATE_4000      28         16"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workshop / Summer School Name",
+    "section": "",
+    "text": "Each day will have morning and afternoon sessions. Participants should bring their own laptops for hands-on exercises.\nFor specific requirements, see the individual session pages.\n\n\n\nMonday[Date]\n\n\n\n\n\nSession 1 Title\n\nShort description\n\n\n\n\n\n\n\n\n\nTuesday[Date]\n\n\n\n\n\nSession 3 Title\n\nShort description\n\n\n\n\n\nEmbedding PDFs\n\nDisplay and embed PDFs\n\n\n\n\n\n\n\n\n\nTuesday[Date]\n\n\n\n\n\nEmbedding R code\n\nThis is about embedding R code\n\n\n\n\n\nEmbedding Python code\n\nSame as R but with Python\n\n\n\n\n\n\n\n \n\n\nHosted by:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Workshop",
+    "section": "",
+    "text": "This workshop is organized by Your Institution and hosted by the Workshop Host Department.\nIt is open to participants from [audience description, e.g. graduate students, faculty, researchers]."
+  },
+  {
+    "objectID": "about.html#instructors",
+    "href": "about.html#instructors",
+    "title": "About This Workshop",
+    "section": "Instructors",
+    "text": "Instructors\n\n\n\n\n\n\nInstructor One\nShort bio paragraph: background, expertise, and current role.\nOptional links: Personal Website, GitHub.\n\n\n\n\n\n\n\n\n\n\n\n\nInstructor Two\nShort bio paragraph: background, teaching areas, and research focus.\nOptional links: Personal Website."
+  },
+  {
+    "objectID": "pages/embedPython.html",
+    "href": "pages/embedPython.html",
+    "title": "Embedding Python code",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]"
+  },
+  {
+    "objectID": "pages/embedPython.html#session-details",
+    "href": "pages/embedPython.html#session-details",
+    "title": "Embedding Python code",
+    "section": "",
+    "text": "Date: [Day of week], [Month] [Day], [Year]\n\nTime: [Start time]–[End time] ([morning/afternoon/evening] session)\n\nLocation: [Venue or virtual platform]\n\nInstructor: [Instructor Name]"
+  },
+  {
+    "objectID": "pages/embedPython.html#loading-packages",
+    "href": "pages/embedPython.html#loading-packages",
+    "title": "Embedding Python code",
+    "section": "Loading packages",
+    "text": "Loading packages\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom scipy.stats import norm"
+  },
+  {
+    "objectID": "pages/embedPython.html#code-chunks",
+    "href": "pages/embedPython.html#code-chunks",
+    "title": "Embedding Python code",
+    "section": "Code chunks",
+    "text": "Code chunks\n\n# Parameters of the normal distribution\nmu = 0      # mean\nsigma = 1   # standard deviation\nn_samples = 1000\n\n# Sample from the distribution\nsamples = np.random.normal(mu, sigma, n_samples)\n\n# Plot the true PDF\nx = np.linspace(mu - 4*sigma, mu + 4*sigma, 1000)\npdf = norm.pdf(x, mu, sigma)"
+  },
+  {
+    "objectID": "pages/embedPython.html#cross-reference-figures",
+    "href": "pages/embedPython.html#cross-reference-figures",
+    "title": "Embedding Python code",
+    "section": "Cross reference figures",
+    "text": "Cross reference figures\nYou can add special tags to be able to create links to figures. See Figure 1 for details.\n\n\nCode\n# Plot histogram of samples\nplt.hist(samples, bins=30, density=True, alpha=0.6, color=\"skyblue\", label=\"Samples\")\n\nplt.plot(x, pdf, \"r-\", lw=2, label=\"True PDF\")\n\nplt.title(\"Normal Distribution Sampling\")\nplt.xlabel(\"Value\")\nplt.ylabel(\"Density\")\nplt.legend()\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: You can link to this figure"
+  },
+  {
+    "objectID": "pages/session1.html",
+    "href": "pages/session1.html",
+    "title": "Session 1 Title",
+    "section": "",
+    "text": "Date:\n[Day of week], [Month] [Day], [Year]\nTime:\n[Start time]–[End time] ([morning/afternoon/evening] session)\nLocation:\n[Venue or virtual platform]\nInstructor:\n[Instructor Name]\nPrerequisites:\n[List of prerequisite knowledge or skills, if any]\nSoftware:\n[List software requirements here. For example:\nParticipants should install [Software/Tool] beforehand, or ensure they have access to a web browser with [requirement].]\n\n\nCourse materials can be found here."
+  }
+]

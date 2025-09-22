@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>example.com/pages/embedPDF.html</loc>
+    <lastmod>2025-09-02T16:17:57.651Z</lastmod>
+  </url>
+  <url>
+    <loc>example.com/pages/session2.html</loc>
+    <lastmod>2025-08-22T18:34:33.580Z</lastmod>
+  </url>
+  <url>
+    <loc>example.com/pages/embedR.html</loc>
+    <lastmod>2025-09-02T15:11:27.742Z</lastmod>
+  </url>
+  <url>
+    <loc>example.com/index.html</loc>
+    <lastmod>2025-09-02T16:23:46.070Z</lastmod>
+  </url>
+  <url>
+    <loc>example.com/about.html</loc>
+    <lastmod>2025-08-22T17:43:32.084Z</lastmod>
+  </url>
+  <url>
+    <loc>example.com/pages/embedPython.html</loc>
+    <lastmod>2025-09-02T15:42:18.392Z</lastmod>
+  </url>
+  <url>
+    <loc>example.com/pages/session1.html</loc>
+    <lastmod>2025-09-02T16:17:10.107Z</lastmod>
+  </url>
+</urlset>
